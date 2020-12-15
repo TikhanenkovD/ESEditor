@@ -1,14 +1,17 @@
 <template>
-<div id="app">
-  <router-view />
+<div>
+
 </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'EditStoryPage',
+  props: ['id']
+
 }
 </script>
 
-<style lang="scss">
+<style>
+
 </style>
